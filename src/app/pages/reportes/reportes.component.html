@@ -1,0 +1,53 @@
+<div class="flex flex-grow flex-col  p-4">
+  <h1 class="font-body font-medium text-xl lg:text-2xl mb-10">Reportes</h1>
+
+  <section class="flex flex-wrap justify-center">
+    <article class="h-1/2 w-full lg:w-1/3  bg-white lg:mr-4 mb-4 lg:mb-5 rounded-lg shadow overflow-auto">
+      <header class="h-24 w-full flex justify-end bg-cover bg-right bg-no-repeat" style="background-image: url('../../../assets/img/reportes-bg-2.jpg');">
+
+          <span class="text-2xl ml-16 mt-4 font-semibold">Libro de Ingresos para Tesaka</span>
+        <app-json-icon class="inline-block mt-1"></app-json-icon>
+      </header>
+      <div class="h-24 flex flex-wrap justify-evenly items-end pb-2">
+        <select name="Año" id="anio" class="p-2">
+          <option value="2018">2018</option>
+          <option value="2019">2019</option>
+          <option value="2020">2020</option>
+          <option value="2021">2021</option>
+        </select>
+        <select name="Mes" id="mes" class="p-2">
+          <option value="volvo">Todos</option>
+          <option value="volvo">Ene</option>
+          <option value="saab">Feb</option>
+          <option value="mercedes">Mar</option>
+          <option value="audi">May</option>
+          <option value="audi">Jun</option>
+          <option value="audi">Jul</option>
+          <option value="audi">Ago</option>
+          <option value="audi">Sep</option>
+          <option value="audi">Oct</option>
+          <option value="audi">Nov</option>
+          <option value="audi">Dic</option>
+        </select>
+        <button class="bg-gray-300 hover:bg-green-400 px-3 py-2 text-white uppercase text-sm font-semibold rounded"><app-descargar-icon></app-descargar-icon></button>
+      </div>
+    </article>
+    <article class="h-1/2 w-full lg:w-1/3 bg-white lg:mr-4 mb-4 lg:mb-5">
+      <header class="h-48">
+        <app-json-icon class="inline-block"></app-json-icon>
+      </header>
+    </article>
+    <article class="h-1/2 w-full lg:w-1/3 bg-white lg:mr-4 mb-4 lg:mb-5">
+      <header class="h-48">
+        <app-excel-icon class="inline-block"></app-excel-icon>
+      </header>
+    </article>
+    <article class="h-1/2 w-full lg:w-1/3 bg-white lg:mr-4 mb-4 lg:mb-5">
+      <header class="h-48">
+        <app-excel-icon class="inline-block"></app-excel-icon>
+      </header>
+    </article>
+
+  </section>
+</div>
+

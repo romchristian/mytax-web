@@ -1,0 +1,13 @@
+.itemColor {
+  color: #444;
+}
+
+.itemColor:hover {
+  color: #111;
+  font-weight: bold;
+}
+
+.active {
+  color: #111;
+  font-weight: bold;
+}

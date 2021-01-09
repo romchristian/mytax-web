@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "mytax-web"
+  "defaultProject": "mytax-web",
+  "cli": {
+    "analytics": false
+  }
 }
