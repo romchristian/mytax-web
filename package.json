@@ -8,7 +8,8 @@
     "build-css": "tailwindcss build styles.css -o src/styles.css",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "ng build --prod --base-href=https://romchristian.github.io/mytax-web/ && npx angular-cli-ghpages --dir=dist/mytax-web --branch gh-pages"
   },
   "private": true,
   "dependencies": {
@@ -35,6 +36,7 @@
     "@angular/compiler-cli": "~11.0.6",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
+    "angular-cli-ghpages": "^1.0.0-rc.1",
     "codelyzer": "^6.0.0",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",
